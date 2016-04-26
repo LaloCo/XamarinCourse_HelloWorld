@@ -22,6 +22,8 @@
                  VerticalAlignment="Top" Width="340" 
                  PlaceholderText="Your name here"/>
         <Button x:Name="sayHelloButton" 
+                Background="{StaticResource SystemControlForegroundAccentBrush}"
+                Foreground="White"
                 Content="Say Hello!" 
                 HorizontalAlignment="Center"
                 Margin="10,117,0,0"
