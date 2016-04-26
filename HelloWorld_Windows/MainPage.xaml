@@ -11,6 +11,7 @@
         <TextBlock x:Name="textBlock1"
                    HorizontalAlignment="Center"
                    Margin="10,10,0,0"
+                   FontSize="25"
                    TextWrapping="Wrap"
                    Text="Hello Windows World!"
                    VerticalAlignment="Center"/>
