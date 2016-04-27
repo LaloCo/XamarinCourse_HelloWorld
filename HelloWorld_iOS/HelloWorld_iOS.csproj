@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>HelloWorld_iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>HelloWorld_iOS</AssemblyName>
+    <AssemblyName>Hello World</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
