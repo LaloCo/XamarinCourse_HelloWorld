@@ -16,7 +16,6 @@ namespace HelloWorld_Mac
 			base.ViewDidLoad ();
 
 			// Do any additional setup after loading the view.
-
 		}
 
 		public override NSObject RepresentedObject {
@@ -27,6 +26,13 @@ namespace HelloWorld_Mac
 				base.RepresentedObject = value;
 				// Update the view, if already loaded.
 			}
+		}
+
+		partial void sayHelloButton_Pressed (Foundation.NSObject sender)
+		{
+			string name = nameTextField.Title;
+
+			helloLabel.Title = $"Hello {name}!";
 		}
 	}
 }
